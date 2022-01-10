@@ -71,11 +71,8 @@ print(marks)
 
 # Part (a)
 colors = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
-
-for color in colors:
-    if color == 'Black':
-        continue;
-    print(color)
+colors.remove('Black')
+print(colors)
 
 
 # Part (b)
